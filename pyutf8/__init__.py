@@ -13,6 +13,7 @@ def _import_c_valid_utf8_bytes():
         return None
 c_valid_utf8_bytes = _import_c_valid_utf8_bytes()
 
+valid_utf8_bytes = None
 def _toggle_speedups(enabled):
     global c_valid_utf8_bytes, valid_utf8_bytes
     if enabled:
@@ -20,3 +21,4 @@ def _toggle_speedups(enabled):
     else:
         c_valid_utf8_bytes = None
     valid_utf8_bytes = c_valid_utf8_bytes or py_valid_utf8_bytes
+_toggle_speedups(True)

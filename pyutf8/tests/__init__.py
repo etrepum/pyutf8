@@ -27,6 +27,7 @@ def additional_tests(suite=None):
 def all_tests_suite():
     suite = unittest.TestLoader().loadTestsFromNames([
         'pyutf8.tests.test_ref',
+        'pyutf8.tests.test_valid_utf8_bytes',
     ])
     suite = additional_tests(suite)
     return OptionalExtensionTestSuite([suite])
