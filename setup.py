@@ -16,9 +16,7 @@ VERSION = '0.1'
 DESCRIPTION = "Extension for dealing with valid and invalid UTF-8 strings"
 LONG_DESCRIPTION = """
 pyutf8 provides tools to efficiently deal with the validation
-and cleanup of UTF-8 strings. The primary use case is "garbage in utf-8 out",
-but can also compensate for some of the edge-cases present in the Python 2.x
-implementation of UTF-8.
+and cleanup of UTF-8 strings. The primary use case is "garbage in utf-8 out".
 """
 
 CLASSIFIERS = filter(None, map(str.strip,
