@@ -14,10 +14,7 @@ from distutils.errors import CCompilerError, DistutilsExecError, \
 
 VERSION = '0.1'
 DESCRIPTION = "Extension for dealing with valid and invalid UTF-8 strings"
-LONG_DESCRIPTION = """
-pyutf8 provides tools to efficiently deal with the validation
-and cleanup of UTF-8 strings. The primary use case is "garbage in utf-8 out".
-"""
+LONG_DESCRIPTION = open('README.rst').read()
 
 CLASSIFIERS = filter(None, map(str.strip,
 """
