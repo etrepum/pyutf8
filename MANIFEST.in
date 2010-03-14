@@ -1,0 +1,6 @@
+include *.rst
+include *.txt
+include doc/*.py
+include doc/*.rst
+recursive-include pyutf8 *.py *.c
+global-exclude ._*
