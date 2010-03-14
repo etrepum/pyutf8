@@ -20,7 +20,7 @@ def additional_tests(suite=None):
         suite = unittest.TestSuite()
     for mod in (pyutf8, pyutf8.ref):
         suite.addTest(doctest.DocTestSuite(mod))
-    suite.addTest(doctest.DocFileSuite('../../index.rst'))
+    suite.addTest(doctest.DocFileSuite('../../README.rst'))
     return suite
 
 
