@@ -12,7 +12,7 @@ from distutils.command.build_ext import build_ext
 from distutils.errors import CCompilerError, DistutilsExecError, \
     DistutilsPlatformError
 
-VERSION = '0.1'
+VERSION = '0.1.1'
 DESCRIPTION = "Extension for dealing with valid and invalid UTF-8 strings"
 LONG_DESCRIPTION = open('README.rst').read()
 

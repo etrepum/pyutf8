@@ -13,7 +13,7 @@ Usage::
     >>> valid_utf8_bytes('\xff' + SNOWMAN_BYTES + '\xff') == SNOWMAN_BYTES
     True
 """
-__version__ = '0.1'
+__version__ = '0.1.1'
 __all__ = ['valid_utf8_bytes']
 __author__ = 'Bob Ippolito <bob@redivi.com>'
 
