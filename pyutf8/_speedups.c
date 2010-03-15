@@ -156,6 +156,7 @@ valid_utf8_bytes(PyObject *s)
     */
     outstr = PyString_FromStringAndSize(chars, len);
     if (outstr == NULL) {
+        Py_DECREF(s);
         return NULL;
     }
     outchars = PyString_AS_STRING(outstr);
