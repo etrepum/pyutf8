@@ -1,3 +1,7 @@
+Version 0.2 released XXXX-XX-XX
+
+* Bug fix for reference leak if string allocation fails.
+
 Version 0.1 released 2010-03-14
 
 * Initial release
